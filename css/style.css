@@ -1,0 +1,859 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+}
+
+h1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin: 0px;
+    padding: 20px 20px 10px 0px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 20px 0px 00px;
+    padding: 20px 20px 10px 0px;
+    text-align: left;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: rgb(180, 92, 70);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    box-sizing: border-box;
+    width: 960px; 
+    margin: auto;
+    padding: auto;
+}
+
+/*--------------------------------------------------------------------------LOGO HEADER-------------------------------------------------------------------*/
+
+#marca img {
+    display: block;
+    margin: auto;
+    position: static;
+}
+
+#logo1 {
+    width: 120px;
+    margin: 0;
+    position: static;
+}
+
+#logo2 {
+   width: 300px;
+   padding: 0px;
+   margin: 0;
+}
+
+/*------------------------------------------------------------------------BARRA DE MENU---------------------------------------------------------------------*/
+
+.menu {
+    box-sizing: border-box;
+    width: 960px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    background-color: #e2966a;
+    height: 50px;
+    padding: 20px 10px 10px 10px;
+    position: static;
+    
+}
+
+.navbar ul li {
+    flex: 1 0 auto;
+    width: 24%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+}
+
+.navbar li a {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+/*-----------------------------------------------------------------------------INDEX-------------------------------------------------------------------------*/
+
+/*Seccion Noticias*/
+
+#noticias {
+    width: 960px;
+    height: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FCC5A5;
+    margin: auto;
+    padding: 10px 40px 30px 40px;
+}
+
+/*Imagenes y parrafos en articulo egresados*/
+
+#egresados {
+    height: 700px;
+}
+
+/*Articulo Proximas Inscripciones*/
+
+#inscripciones{
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+#boton-propuesta-academica{
+    background-color:#FCC5A5;
+    width: 400px;
+    margin: auto; 
+    margin-bottom: 10px;
+    padding: auto;
+    height: 80px;
+}
+
+#texto-boton {
+    font-size: 30px;
+    border-radius: 40px;
+    background-color:#e2966a;
+    box-sizing: border-box;
+    width: 450px;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    font-style: italic;
+    text-align: center;
+}
+
+#texto-boton a {
+    text-decoration: none;
+}
+
+#texto-boton :hover {
+    color: rgb(255, 255, 255);
+}
+
+/* Seccion Recetas*/
+
+ #recetas {
+    width: 960px;
+    height: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FCC5A5;
+    margin: auto;
+    padding: 10px 40px 30px 40px;
+    margin-top: 20px;
+}
+
+/*FLEXBOX*/
+
+.imagen0 {
+    height: auto;
+    width: 750px;
+    margin: 10px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.imagen0 img {
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.tarjeta0 {
+    display: flex;
+    flex-wrap: wrap-reverse; /*se ajustan las cajas al ancho de la ventana, es decir se acomodan hacia cualquier linea*/
+    width: 750px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.tarjeta0 p {
+    text-align: justify;
+    width: 100%;
+}
+
+.imagen {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+}
+
+.imagen img {
+    border: 0;
+    width: 370px;
+    margin: 20px;  
+}
+
+.tarjeta {
+    display: flex;
+    flex-wrap: nowrap; /*se ajustan las cajas al ancho de la ventana, es decir se acomodan hacia cualquier linea*/
+    width: 850px;
+    margin: auto;
+}
+
+.tarjeta p {
+    text-align: justify;
+}
+
+/*--------------------------------------------------------------------ACERCA DE NOSOTROS-¿QUIENES SOMOS?--------------------------------------------------------------*/
+
+#contenido-principal {
+    width: 960px;
+    background-color: #FCC5A5;
+    color: black;
+    margin: auto;
+    padding: 10px 40px 30px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#quienes-somos p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#nuestra-filosofia p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#razones p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#img1 {
+    text-align: center;
+}
+
+#img1 img {
+    width: 700px;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+#img2 {
+    text-align: center;
+}
+
+#img2 img {
+    width: 800px;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+#img3 {
+    text-align: center;    
+}
+
+#img3 img {
+    width: 800px;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+#video {
+    margin: auto;
+    padding-top: 20px;
+}
+
+/*-----------------------------------------------------------------------PROPUESTA ACADEMICA-----------------------------------------------------------------*/
+
+#academicas {
+    width: 960px;
+    margin: auto;  
+}
+
+.carreras {
+    border-radius:10px;
+    background-color:#FCC5A5;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px 40px 30px 40px;
+}
+
+.carrera1 {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+.carrera1 p {
+    padding: 10px 20px 20px 10px;
+    background-color: #FCC5A5;
+    margin: 10px 20px 20px 20px;
+}
+
+#imagenreposteria img {
+    max-width: 250px;
+    margin: 10px 10px 20px 20px;
+    padding: 10px 10px 30px 20px;
+    position: static;
+}
+
+#botoninscripcion {
+    background-color: white;
+    width: 960px;
+    margin: auto; 
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: auto;
+    height: 60px;
+}
+
+#botoninscripcion p {
+    font-size: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 350px;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    background-color:#e2966a;
+    height: 60px;
+}
+
+#botoninscripcion a {
+    text-decoration: none;
+}
+
+#botoninscripcion p:hover {
+    background-color: red;
+    color: white;
+}
+
+
+
+/*------------------------------------------------------------------ESTUDIA CON NOSOTROS - FORMULARIO------------------------------------------------------------*/
+
+#formulario { /*seccion*/
+    width: 960px;
+    height: 850px;
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+form {
+    display: block;
+    min-width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+    background-color:#FCC5A5;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#texto-form {
+    width: 300px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#aside {
+    box-sizing: border-box;
+    padding-left: 10px;
+    width: auto;
+    height: auto;
+}
+
+#aside img {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+#api {
+    width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#maps {
+    margin: auto;
+    font-size: 16px;
+    height: 500px;
+    margin-top: 15px; 
+}
+
+/*------------------------------------------------------------------------LOGO WHATSAPP--------------------------------------------------------------------------*/
+
+.logowpp {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.logowpp img {
+    width: 60px;
+    height: auto;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    text-align: center;
+    z-index: 100;
+    transition: width 2s;
+}
+
+.logowpp img:hover {
+    width: 80px;
+}
+
+/*----------------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
+
+#botonera-footer {
+    color: rgb(254, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    width: 960px; 
+}
+
+#datos {
+    background-color: rgb(0, 0, 0);
+    padding-left: 20px; 
+    border-radius:10px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0px 0px 0px;
+}
+
+#datos p {
+    color: rgb(255, 255, 255);
+}
+ 
+#redes {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;          
+}
+
+#botonera_footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#botonera_footer ul li a img {
+    width: 30px;
+}
+
+#botonera_footer ul {
+    padding: 0px;
+}
+
+/*Diseño Responsive Media Query*/
+/*Modo tableta*/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    /*Copiar y pegar todo lo de arriba, borrar lo que esté repetido 
+    de estilo. 
+    Modificar tamaño de width*/ 
+    
+    header {
+        width: 580px;
+        height: auto;
+        margin: auto;
+    }
+    
+    footer {
+        box-sizing: border-box;
+        width: 580px; 
+        margin: auto;
+        padding: auto;
+    }
+    
+    /*--------------------------------------------------------------------------LOGO HEADER-------------------------------------------------------------------*/
+    
+    #marca img {
+        display: block;
+        height: auto;
+        margin: auto;
+        position: static;
+    }
+    
+    #logo1 {
+        width: 70px;
+        margin: 0;
+        position: static;
+    }
+    
+    #logo2 {
+       width: 200px;
+       padding: 0px;
+       margin: 0;
+    }
+
+    /*------------------------------------------------------------------------BARRA DE MENU---------------------------------------------------------------------*/
+    
+    .menu {
+        width: 580px;
+        height: auto;
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-around;
+        height: 70px;
+        padding: 20px 10px 10px 10px;
+    }
+    
+    .navbar ul li {
+        flex: 1 0 auto;
+        width: 24%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px; 
+    }
+    
+    /*-----------------------------------------------------------------------------INDEX-------------------------------------------------------------------------*/
+    
+    /*Seccion Noticias*/
+    
+    #noticias {
+        width: 580px;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+        padding: 10px 40px 30px 40px;
+    }
+    
+    /*Imagenes y parrafos en articulo egresados*/
+    
+    #egresados {
+        height: 700px;
+    }
+    
+    /*Articulo Proximas Inscripciones*/
+    
+    #inscripciones {
+        height: auto;
+        width: 580px;
+        margin: auto;
+    }
+    
+    #boton-propuesta-academica{
+        width: 400px;
+        margin: auto; 
+        margin-bottom: 10px;
+        padding: auto;
+        height: 80px;
+    }
+    
+    #texto-boton {
+        font-size: 30px;
+        width: 450px;
+        padding: 10px 0px 10px 0px;
+        margin: auto;
+    }
+    
+    /* Seccion Recetas*/
+    
+     #recetas {
+        width: 580px;
+        height: auto;
+        margin: auto;
+        padding: 10px 40px 30px 40px;
+        margin-top: 20px;
+    }
+    
+    /*FLEXBOX*/
+    
+    .imagen0 {
+        height: auto;
+        width: 500px;
+        margin: 10px;
+        margin: auto;
+    }
+    
+    .imagen0 img {
+        border: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    
+    .tarjeta0 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 500px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .imagen {
+        height: auto;
+        width: 470px;
+        margin: 0px;
+    }
+    
+    .imagen img {
+        border: 0;
+        width: 100%;
+        margin: 20px; 
+    }
+    
+    .tarjeta {
+        display: flex;
+        flex-wrap: wrap-reverse; 
+        width: 500px;
+        margin: auto;
+    }
+    
+    /*----------------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
+    
+    #botonera-footer {
+        font-size: 16px;
+        text-align: justify;
+        width: 580px; 
+    }
+    
+    #datos {
+        padding-left: 20px; 
+        border-radius:10px;
+        padding: 10px 20px 10px 20px;
+        margin: 20px 0px 0px 0px;
+    }
+}
+
+/* ----------------------------------------------- Responsive de celular -----------------------------------------------------------*/
+
+@media all and (max-width: 599px) {
+
+    header {
+        width: 90%;
+        height: auto;
+    }
+    
+    footer {
+        box-sizing: border-box;
+        width: 100%; 
+    }
+
+    
+h1 {
+    font-size: 21px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 21px;
+}
+    
+    /*--------------------------------------------------------------------------LOGO HEADER-------------------------------------------------------------------*/
+    
+    #marca img {
+        display: block;
+        margin: auto;
+        position: static;
+    }
+    
+    #logo1 {
+        width: 70px;
+        margin: 0;
+        position: static;
+    }
+    
+    #logo2 {
+       width: 180px;
+       padding: 0px;
+       margin: 0;
+    }
+  
+    /*------------------------------------------------------------------------BARRA DE MENU---------------------------------------------------------------------*/
+    
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .navbar ul li {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .navbar li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navbar li a:hover {
+        color: white;
+    }
+    
+    /*-----------------------------------------------------------------------------INDEX-------------------------------------------------------------------------*/
+    /*Seccion Noticias*/
+    
+    #noticias {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    } 
+    /*Imagenes y parrafos en articulo egresados*/
+    
+    #egresados {
+        width: 100%;
+        height: auto;
+    }
+    
+    /*Articulo Proximas Inscripciones*/
+    
+    #inscripciones {
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    
+    #boton-propuesta-academica{
+        width: 300px;
+        margin: auto; 
+        margin-bottom: 10px;
+        padding: auto;
+        height: auto;
+    }
+    
+    #texto-boton {
+        font-size: 20px;
+        width: 200px;
+        margin: auto;
+    }
+    
+    /* Seccion Recetas*/
+    
+     #recetas {
+        width: 100%;
+        height: auto;
+    }
+    
+    /*FLEXBOX*/
+    
+    .imagen0 {
+        height: auto;
+        width: 300px;
+    }
+    
+    .imagen0 img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .tarjeta0 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .tarjeta0 p {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagen {
+        height: auto;
+        width: 100%;
+    }
+    
+    .imagen img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        margin: 0;
+    }
+    
+    .tarjeta {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tarjeta p {
+        width: 100%;
+    }
+    
+    /*----------------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------*/
+    
+    #botonera-footer {
+        font-size: 16px;
+        text-align: justify;
+        width: 100%; 
+    }
+    
+    #datos {
+        padding-left: 20px; 
+        border-radius:10px;
+        padding: 10px 20px 10px 20px;
+    }
+}

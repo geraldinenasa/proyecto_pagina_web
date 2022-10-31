@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/datosFormulario.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Inscribite</title>
+</head>
+<body>     
+    <header>
+        <div id="marca">
+            <img id="logo1" src="../img/icono.png" alt="logo de la empresa">
+            <img id="logo2" src="../img/logococina.png" alt="logo de la empresa">
+        </div>
+        <section class="menu">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/acercaDeNosotros.html">Acerca de nosotros</a></li>
+                    <li><a href="../pages/propuestaAcademica.html">Propuesta Academica</a></li>
+                    <li><a href="../pages/estudiaConNosotros.html">Estudia con nosotros</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header> 
+   
+    <section id="formulario">
+    <form action="#">
+        <fieldset>
+        <legend>Complete con sus datos personales</legend>
+        <br><br>
+        <label for="Apellido">Apellido:</label >
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido">
+        <br><br>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="nombre" name="Nombre" placeholder="Ingrese su Nombre">
+        <br><br>
+        <label for="DNI">DNI:</label>
+        <input type="number" name="DNI" id="dni" placeholder="Número de Documento">
+        <br><br>
+        <label for="fecNac">Fecha de Nacimiento:</label>
+        <input type="date" name="fecNac" id="fecNac" >
+        <br><br>
+        <label for="Email">Email:</label>
+        <input type="email" id="email" name="Email" placeholder="Ingrese su Email">
+        <br><br>
+        <label for="curso"><b>Seleccionar Curso:</b></label><br><br>
+        <select name="curso" id="curso" size="1">
+            <option value="1">Panaderia Nivel Principiante</option> 
+            <br><br>
+            <option value="2">Cocteleria</option>
+            <br><br>
+            <option value="3">Reposteria Nivel Principiante</option>
+            <br><br>
+            <option value="4">Reposteria Nivel Intermedio</option>
+            <br><br>
+            <option value="5">Barman Profesional</option>
+        </select>  
+        <br><br>
+        <label for="turno"> <b>Seleccionar Turno:</b> </label><br><br>
+        <select name="Turno" id="Turno" size="1">
+            <option value="1">Mañana</option> 
+            <br>
+            <option value="2">Tarde</option>
+        </select>               
+        <br> <br>
+        <p id="texto-form">Si ya ha estudiado en nuestra institución, por favor indique en el cuadro de abajo.</p>
+        <label for="Comentarios"><b>Ingrese su consulta:</b> </label> <br><br>
+        <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Escriba aqui su consulta.."></textarea>
+        <br><br>
+        <button type="button" onclick="capturandoDatos()">Enviar Datos</button>
+        <br><br>       
+        <input type="reset" value="Borrar">  
+     </fieldset>
+     </form>
+     <div id="aside">
+        <img src="../img/aside.jpg">
+     </div>
+    </section>
+    
+    <section id="api">
+     <!-- Insertamos API Maps-->
+     <div id="maps">
+        <script src="/maps.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMaps"></script>
+     </div>
+    </section>
+
+</body> 
+<footer>
+    <div id="datos">
+        <p>ADM, C. 61 307, B1904 La Plata, Provincia de Buenos Aires</p>
+        <p>Telefono :(211)123-2541</p>
+        <p>info@cursosdecocina.edu.ar</p>
+            <div id="redes">
+                <nav id="botonera_footer">
+                    <ul>
+                        <li><a href="http://www.facebook.com/EscuelaDeCocinaCaC"><img src="../img/ico/fb.png"></a></li>
+                        <li><a href="http://www.twitter.com/EscuelaDeCocinaCaC"><img src="../img/ico/tw.png"></a></li>
+                        <li><a href="http://www.youtube.com/EscuelaDeCocinaCaC"><img src="../img/ico/yt.png"></a></li>
+                        <li><a href="http://www.instagram.com/EscuelaDeCocinaCaC"><img src="../img/ico/ig.png"></a></li>
+                    </ul>
+                </nav>
+            </div>
+    </div>   
+</footer>
+<div class="logowpp">
+    <a href="https://api.whatsapp.com/send?phone=542996748781" target="_blank"><img src="../img/ico/whatsapp.png" alt="Icono Whatsapp"></a>  
+</div> 
+</html>
