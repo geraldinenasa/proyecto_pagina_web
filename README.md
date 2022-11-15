@@ -3,7 +3,5 @@ Se crea una pagina web para el curso Codo a Codo 4.0 donde se plantea hacer la d
 
 Integrantes del proyecto :
 
-- Carolina Riddick
-- Martina Roasenda
 - Geraldine Nasabun
-- Ana Paola Polo
+- Carolina Riddick
